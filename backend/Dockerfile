@@ -1,9 +1,7 @@
-FROM ubuntu:20.04
-WORKDIR /backend
-RUN apt-get update && \
-    apt-get install -y nodejs npm
-COPY package*.json /backend/
-RUN npm install
-COPY . /backend/
+FROM node:18
+WORKDIR /app
+COPY package*.json ./
+RUN npm install --production
+COPY . .
 EXPOSE 3333
-CMD ["npm", "start"]
+CMD ["npm", "start", "/src/server.js"]    

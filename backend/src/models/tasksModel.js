@@ -5,6 +5,10 @@ const getAll = async () => {
   return tasks;
 };
 
+module.exports = {
+  getAll,
+}
+
 const createTask = async (task) => {
   const { title } = task;
   const dateUTC = new Date(Date.now()).toUTCString();
@@ -35,3 +39,5 @@ module.exports = {
   deleteTask,
   updateTask,
 };
+
+
