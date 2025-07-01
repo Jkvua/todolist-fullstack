@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: provafinal-devops
+  labels:
+    app: provafinal-devops
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: provafinal-devops
+  template:
+    metadata:
+      labels:
+        app: provafinal-devops
+    spec:
+      containers:
+        - name: provafinal-devops
+          image: jkvuacamila/provafinal-devops:latest
+          ports:
+            - containerPort: 3333
+          env:
+            - name: DB_HOST
+              value: "mysql"
+            - name: DB_PORT
+              value: "3306"
+            - name: DB_USER
+              value: "root"
+            - name: DB_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: password
+            - name: DB_NAME
+              value: "todolist"
