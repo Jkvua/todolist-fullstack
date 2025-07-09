@@ -8,8 +8,7 @@ resources:
 images:
 - name: prova-fastapi
   newName: jkvuacamila/provafinal-devops
-  newTag: 5f10f8e065267323ec87aecc7aaee242c79bb76d
+  newTag: 673d88f3a0a2b79fb0a0c3911471bb7b0206d52c
 - name: provafinal-devops
   newName: jkvuacamila/provafinal-devops
   newTag: 2f703e434e3113f3fdde65011da0c767f25ada23
-
