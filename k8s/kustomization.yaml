@@ -6,6 +6,9 @@ images:
 - name: jkvuacamila/provafinal-devops
   newName: jkvuacamila/provafinal-devops
   newTag: 14f050fc7d075144de92e87d7dda4c9214e9586b
+- name: prova-fastapi
+  newName: jkvuacamila/provafinal-devops
+  newTag: 2b37adf9220910cbd60c49d8227b1dfc7d5f0291
 - name: provafinal-devops
   newName: jkvuacamila/provafinal-devops
   newTag: 2f703e434e3113f3fdde65011da0c767f25ada23
