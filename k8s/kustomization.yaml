@@ -6,7 +6,7 @@ images:
 - name: jkvuacamila/provafinal-devops
   newName: jkvuacamila/provafinal-devops
   newTag: 14f050fc7d075144de92e87d7dda4c9214e9586b
-- name: prova-fastapi
+- name: provafinal-devops
   newName: jkvuacamila/provafinal-devops
   newTag: 2f703e434e3113f3fdde65011da0c767f25ada23
 apiVersion: kustomize.config.k8s.io/v1beta1
