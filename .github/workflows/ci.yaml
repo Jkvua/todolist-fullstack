@@ -38,7 +38,7 @@ jobs:
       - name: Update kustomization.yaml
         run: |
           cd k8s
-          kustomize edit set image prova-fastapi=jkvuacamila/provafinal-devops:$GITHUB_SHA
+          kustomize edit set image provafinal-devops=jkvuacamila/provafinal-devops:$GITHUB_SHA
 
       - name: Commit changes
         run: |
