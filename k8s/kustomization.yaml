@@ -6,6 +6,9 @@ resources:
 - service.yaml
 
 images:
+- name: prova-fastapi
+  newName: jkvuacamila/provafinal-devops
+  newTag: fd4416fc82349fcf9d51927d404794f20a230449
 - name: provafinal-devops
   newName: jkvuacamila/provafinal-devops
   newTag: 2f703e434e3113f3fdde65011da0c767f25ada23
