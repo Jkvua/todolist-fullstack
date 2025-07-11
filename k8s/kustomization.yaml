@@ -8,4 +8,4 @@ resources:
 images:
 - name: provafinal-devops
   newName: jkvuacamila/provafinal-devops
-  newTag: 5c1e3efa4b57a926cd558703e820651a30c30ea3
+  newTag: 11237994d9fbda3f466aa39007b240786a01abd4
