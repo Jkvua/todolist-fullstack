@@ -8,10 +8,6 @@ Este repositório contém a API backend da aplicação **To-Do-List Fullstack**,
 
 - 🟨 **Node.js** — runtime JavaScript
 - ⚙️ **Express.js** — criação da API REST
-- 🐘 **PostgreSQL** — banco de dados relacional
-- 🧩 **Prisma ORM** — acesso ao banco e migrations
-- 🌐 **CORS** — controle de origens
-- 💡 **Dotenv** — variáveis de ambiente
 - 🐋 **Docker** — containerização
 - ☸️ **Kubernetes** (`k8s/`) — orquestração de containers
 - 🔁 **GitHub Actions** (`.github/workflows/`) — integração contínua (CI)
