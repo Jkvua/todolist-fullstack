@@ -5,7 +5,7 @@ const router = require('./router');
 const app = express();
 
 app.use(cors({
-  origin: 'http://191.52.55.72:30333',
+  origin: 'http://191.52.55.72:30444',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: false
 }));
